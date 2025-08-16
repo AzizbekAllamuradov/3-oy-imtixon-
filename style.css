@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-in-out;
+    font-family: "Quantico", sans-serif;
+}
+
+header{
+    background-color: #272C3D;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-div ul{
+    display: flex;
+    gap: 25px;
+    color: white;
+    margin-top: 21px;
+}
+
+.title-div ul li:hover{
+    color: #FF9C28;
+    transform: scale(1.3);
+}
+
+.img-div{
+    width: 100%;
+    margin-top: 20px;
+}
+
+select{
+    width: 165px;
+    background-color: #00000080;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
+    height: 25px;
+    margin-top: 21px;
+    margin-right: -36px;
+}
+
+.fa-solid{
+    color: white;
+    width: 28.1px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    top: 25px;
+    right: 235px;
+}
+
+.sec-div {
+    background: #000;
+}
+
+
+.img-div1 {
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+}
+
+input{
+    width: 241px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-top: 21px;
+    margin-left: 650px;
+    background-color: #404864;
+}
+
+.sec-title p{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+main {
+    background-color: #1B1E27;
+
+}
+
+section {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.sec-img{
+    margin-top: 5px;
+}
+
+.child-object h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.child-object h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 142px;
+    margin-bottom: 20px;
+}
+
+.child-object{
+    display: flex;
+    flex-direction: column;
+}
+
+.child-object p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #BFBFBF;
+    max-width: 323px;
+}
+
+.object{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.card-img2{
+    margin-bottom: 129px;
+}
+
+
+.card {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-div{
+    background-color: #272C3D;
+    padding: 15px;
+}
+
+.title-div1 ul{
+    display: flex;
+    margin-right: 43px;
+    justify-content: end;
+    gap: 25.46px;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: px;
+}
+
+.title-div1 ul li:hover{
+    color: #FF9C28;
+    transform: scale(1.3);
+}
+
+.img2{
+    position: absolute;
+    z-index: 1;
+}
